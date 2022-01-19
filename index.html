@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <title>Test Matrice</title>
+  </head>
+  <body>
+    <ul>
+      <li style="float:left">
+        <a href="#home"><img src="./assets/Matrice.svg" alt="logo" width="100"></a>
+      </li>
+      <li>
+        <a href="#Bigram">Bigram</a>
+      </li>
+      <li>
+        <a href="#Ip_Validator">Ip_Validator</a>
+      </li>
+      <li>
+        <a href="#Zsearch">Zsearch</a>
+      </li>
+      <li>
+        <a href="#home">Accueil</a>
+      </li>
+    </ul>
+    <div class="container">
+<div id="search_z">
+<h2>Search_z function</h2>
+<input id="search" class="search" type="text" value="">
+<span id="result">Résultat :</span>
+<button type="button" class="favorite styled" onclick="getResult()">Lancer</button>
+</div>
+
+<div id="Ip_Validator">
+<h2>Ip_Validator function</h2>
+<input id="ipvalidator" class="search" type="text" value="">
+<span id="result1">Résultat :</span>
+<button type="button" class="favorite styled" onclick="IP_Validator()">Lancer</button>
+</div>
+    </div>
+    <script src="../src/scripts/Search_Z/Search_Z.js"></script>
+    <script src="../src/scripts/Ip_Validator/Ip_Validator.js"></script>
+  </body>
+</html>

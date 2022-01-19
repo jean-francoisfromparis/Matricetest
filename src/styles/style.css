@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 200vh;
+  font-family: Roboto, sans-serif;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(0.25turn, #e66465, #2837d6);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #af4c99;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1170px;
+}
+#search_z, #Ip_Validator{
+    /* margin-top:200px; */
+    width: 60%;
+    height: 35vh;
+    background-color: #f5f3f3;
+    margin: 130px auto;
+    text-align:center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px lightgrey;
+}
+
+.search {
+    position: relative;
+    top: 10vh;
+    transform: translateY(-110%) ;
+    display:inline-block;
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    border-radius: 20px
+}
+h2 {
+    float: left;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#result, #result1{
+    display: block;
+    margin-top: 90px;
+    font-size:25px;
+}
+
+.styled {
+    margin:35px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 20px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+input {
+    padding-left: 15px;
+    font-size: 18px;
+}
